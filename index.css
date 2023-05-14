@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/75/61/8e/75618ead0f519aff8fec8c9a2e9357fa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.title{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    margin: 2px;
+    color: rgb(91, 55, 234);
+}
+
+
+
+.cat{
+    border-radius: 10px;
+    width: 35vw;
+    margin: 5px;
+    padding: 30px;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/eb/1b/30/eb1b30f9ad3c2eceb14d80e6cebe043b.jpg);
+}
+.cat p{
+    font-weight: bolder;
+    color: rgb(213, 219, 224);
+}
+
+
+.task{
+    background-image: url(https://i.pinimg.com/564x/ba/58/c1/ba58c11717947627491d8e7070e02a99.jpg);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.task p{
+    color: rgb(159, 159, 208);
+    font-weight: normal;
+    margin: 2px;
+}
+
+button{
+    background-color: rgb(39, 39, 74);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+.menos{
+    background-color: rgb(196, 181, 220);
+}
+.mas{
+    background-color: rgb(126, 80, 235);
+}
+.x{
+    align-self: self-end;
+    background-color: rgb(220, 20, 177);
+}
+
+input{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(132, 142, 191);
+    border-width: 1px;
+    padding: 5px;
+    
+}
